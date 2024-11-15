@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Cities Weather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Indian Cities Weather Forecast</h1>
+    <p>Select a city to see the weather forecast.</p>
+  </header>
+  <main>
+    <div class="container">
+      <select id="city-selector">
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Jaipur">Jaipur</option>
+        <option value="Lucknow">Lucknow</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Patna">Patna</option>
+        <option value="Bhopal">Bhopal</option>
+      </select>
+      <button id="get-weather">Get Weather</button>
+      <div id="weather-info" class="weather-card">
+        <h2 id="city-name"></h2>
+        <p id="temperature"></p>
+        <p id="description"></p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Weather data provided by OpenWeatherMap</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
